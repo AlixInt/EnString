@@ -1,0 +1,2 @@
+# EnString
+encode String
