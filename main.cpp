@@ -4,16 +4,16 @@ using namespace std;
 
 int main()
 {
-    char s[1000];
-    int v,y=0;
+    char string[1000];
+    int len,chr=0;
     cout<<"Enter the string: ";
-    cin.get(s,1000);
-    v = strlen(s);
-    for (int i=0;i<v;i++){
+    cin.get(string,1000);
+    len = strlen(string);
+    for (int i=0;i<len;i++){
 
-        int x = s[i];
-        y+=x;
+        int chrnum = string[i];
+        chr+=chrnum;
         }
-    cout<<"The decrypted string value is: "<<y;
+    cout<<"The decrypted string value is: "<<chr;
     return 0;
 }
