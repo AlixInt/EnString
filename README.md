@@ -1,2 +1,2 @@
 # EnString
-encode String
+encode String to ASCII code by C++ 
